@@ -1,3 +1,5 @@
+package javajerry;
+
 public class CheckDigit {
     
     public static int getCheck(int num) {
