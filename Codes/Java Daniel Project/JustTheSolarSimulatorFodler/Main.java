@@ -1,3 +1,5 @@
+package JustTheSolarSimulatorFodler;
+
 import javax.swing.*;
 
 public class Main {

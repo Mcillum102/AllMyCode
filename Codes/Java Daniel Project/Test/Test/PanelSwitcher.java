@@ -1,4 +1,8 @@
+package Test;
 import javax.swing.*;
+
+import JustTheSolarSimulatorFodler.SolarSystemPanel;
+
 import java.awt.*;
 
 public class PanelSwitcher extends JFrame {

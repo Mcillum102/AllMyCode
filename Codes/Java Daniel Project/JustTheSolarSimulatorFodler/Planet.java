@@ -1,3 +1,5 @@
+package JustTheSolarSimulatorFodler;
+
 public class Planet {
     private String name;
     private String imagePath;
