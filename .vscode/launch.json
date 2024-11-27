@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "PanelSwitcher",
+      "request": "launch",
+      "mainClass": "Test.PanelSwitcher",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "JustTheSolarSimulatorFodler.Main",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
