@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Car",
+      "request": "launch",
+      "mainClass": "Car",
+      "projectName": "AllMyCode_c99f7a11"
+    },
+    {
+      "type": "java",
       "name": "PanelSwitcher",
       "request": "launch",
       "mainClass": "Test.PanelSwitcher",
