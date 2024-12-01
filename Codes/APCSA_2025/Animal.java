@@ -21,9 +21,9 @@ public class Animal {
     /* This method will compare the runDistance between two animals (this and other) 
      * Think about how to get the information you need.
     */
-    public String whoRunsMore(Animal other) {
+    // public String whoRunsMore(Animal other) {
 
-    }
+    // }
 
     public static void main(String[] args) {
         // create two Animal obj
