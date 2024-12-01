@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SatClass9",
+      "request": "launch",
+      "mainClass": "SatClass9",
+      "projectName": "AllMyCode_c99f7a11"
+    },
+    {
+      "type": "java",
       "name": "Car",
       "request": "launch",
       "mainClass": "Car",
