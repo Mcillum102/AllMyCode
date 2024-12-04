@@ -32,7 +32,7 @@ class Gr4Student:
     # Depeding on if a value is created by the function or not, you will choose between print and return based on the use of function
     def sleep(self):
         self.sleep_status = 'sleeping'
-        print(self.name + ' just feel asleep')
+        print(f"{self.name} just feel asleep")
         
     def introduce(self):
         print('Hello, I am', self.name)
