@@ -21,20 +21,22 @@ class Animal:
         else:
             print(f"{self.name} sleeps on time")
 
-    def who_sleeps_later(self):
-        if self.sleep_time > 24:
-            print(f"{self.name} sleeps past midnight")
+    # who_sleeps_later is used to check if animal (self) that calls the function sleeps later than the one in ()
+    def who_sleeps_later(self, other):
+        if self.sleep_time > other.sleep_time:
+            print(f"{self.name} sleeps later")
         else:
-            print(f"{self.name} sleeps before or at midnight")
+            print(f"{other.name} sleeps later")
+        
 
 # Inheritance: arent lass needs to be defined with the child class in parentheses.
 # Child Class 1: SnowLeopard
 class SnowLeopard(Animal):
     
-    def __init__(self, name, color, height, sleep_time):
+    def __init__(self, name, color, height, sleep_time, wake_time):
         # super() function is used to call the __init__() of the parent class
         # You always have to call the __init__() of the parent class
-        super().__init__(name, color, height, sleep_time)
+        super().__init__(name, color, height, sleep_time, wake_time)
         
 # Child Class 2: Cow
 class Cow(Animal):
@@ -50,10 +52,8 @@ class Cow(Animal):
         # Ex: 20 - 5 gives us 9 hours of sleep time.
         
         if 24 - self.sleep_time + self.wake_time > 6:
-            print(f"{self.name} can be milked")
             return True
         else:
-            print(f"{self.name} cannot be milked")
             return False
     
     def milk(self):
@@ -64,5 +64,12 @@ class Cow(Animal):
             print(f"{self.name} cannot be milked")
     
 cow1 = Cow("Bessie", "White", 5, 20, 5, False)
+sl1 = SnowLeopard("10.6", "Silver", 9, 19, 4)
 
-cow1.can_be_milked()
+print(cow1.can_be_milked())
+cow1.milk()
+# Each child will be themselves. Does not inherit each other.
+# sl1.milk()
+
+# With the function/method in parent class, we can use them with different child classes at the same time
+sl1.who_sleeps_later(cow1)
