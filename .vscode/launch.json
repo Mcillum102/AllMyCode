@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "AllMyCode_d2e40940"
+    },
+    {
+      "type": "java",
       "name": "Launch Java Program",
       "request": "launch",
       "mainClass": ""
