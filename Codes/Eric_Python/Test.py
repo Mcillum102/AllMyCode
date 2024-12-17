@@ -30,7 +30,7 @@
 #     answer += j
 # print(int(answer))
 
-# Dec-9: Q2:
+'''Dec-9: Q2:'''
 # sentence = "Hi, today is Friday!"
 # sen_list = sentence.split(" ")
 # new_sentence = ""
@@ -45,7 +45,7 @@
 # print(new_sentence[:-1])
 
 
-# Dec-16: Q1:
+'''Dec-16: Q1:'''
 # m = [3, 1]
 # d = 57
 # month_31days = [1,3,5,7,8,10,12]
@@ -73,16 +73,35 @@
 #         m[len(m)-1] = 30
 # print(m)
 
-# Dec-16: Q2:
+'''Dec-16: Q2:'''
 # Print the pattern from doc
-num = int(input("Enter the ending number: "))
-print(" ", end=" ")
-for k in range(1, num+1):
-    print(k, end=" ")
-print()
-for i in range(1, num+1):
-    print(i, end=" ")
-    for j in range(1, num+1):
-        print(i*j, end=" ")
-    print()
+# num = int(input("Enter the ending number: "))
+# print(" ", end=" ")
+# for k in range(1, num+1):
+#     print(k, end=" ")
+# print()
+# for i in range(1, num+1):
+#     print(i, end=" ")
+#     for j in range(1, num+1):
+#         print(i*j, end=" ")
+#     print()
     
+    
+'''Dec-16 Q3:'''
+status = True
+shoplist = []
+while status:
+    option = int(input("Select an option:\n1. Add an item\n2. Remove an item\n3. View list\n4. Exit\n"))
+    if option == 1:
+            addition = input("What would you like to add? ")
+            shoplist.append(addition)
+            option = 0
+    elif option == 2:
+            removal = input("What would you like to remove? ")
+            shoplist.remove(removal)
+            option = 0
+    elif option == 3:
+            print(shoplist)
+            option = 0
+    elif option == 4:
+            status = False
