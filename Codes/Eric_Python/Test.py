@@ -72,3 +72,17 @@
 #     elif m[0] in month_30days:
 #         m[len(m)-1] = 30
 # print(m)
+
+# Dec-16: Q2:
+# Print the pattern from doc
+num = int(input("Enter the ending number: "))
+print(" ", end=" ")
+for k in range(1, num+1):
+    print(k, end=" ")
+print()
+for i in range(1, num+1):
+    print(i, end=" ")
+    for j in range(1, num+1):
+        print(i*j, end=" ")
+    print()
+    
