@@ -36,9 +36,10 @@ sen_list = sentence.split(" ")
 new_sentence = ""
 for i in sen_list:
     if i.isalpha():
-        new_sentence += i[::-1]
-        new_sentence += ' '
-    
+        new_sentence += i[::-1] + ' '
+    else:
+        word = i[:-1]
+        symbol = i[-1:]
+        new_sentence += word[::-1] + symbol + ' '
         
-        
-print(new_sentence)
+print(new_sentence[:-1])
