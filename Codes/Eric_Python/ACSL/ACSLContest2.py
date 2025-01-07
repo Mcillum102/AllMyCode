@@ -32,7 +32,28 @@ value = input_list[1]
 # Step 2:
 # Find out what's unique about each condition
 if ',' in format_string:
-    pass
+    # Step 3.4:
+    # how to start from right and add comma
+    # SUGGESTION: reverse add everything, and reverse again before print
+    result_string = ""
+    ampersandcounter = 0
+    for i in format_string:
+        if i == "&":
+            ampersandcounter += 1
+    index = -1
+    comma_counter = 1
+    while ampersandcounter > 0:
+        if abs(index) <= len(value):
+            result_string += value[index]
+        else:
+            result_string += "*"
+        
+        if comma_counter % 3 == 0 and comma_counter < ampersandcounter:
+            result_string += ','
+        comma_counter += 1
+        ampersandcounter -= 1
+        index -= 1
+    print(result_string[::-1])
 # priority: always put the condition that's less possible upfront
 elif '*$' in format_string:
     # Step 3.3: "combine" two different conditions
