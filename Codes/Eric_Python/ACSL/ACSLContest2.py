@@ -35,8 +35,15 @@ if ',' in format_string:
     pass
 # priority: always put the condition that's less possible upfront
 elif '*$' in format_string:
+    # Step 3.3: "combine" two different conditions
     # how to find out the number of & in format string?
+    ampersandcounter = 0
+    for i in format_string:
+        if i == "&":
+            ampersandcounter += 1
+    print('*' * (ampersandcounter - len(value)) + "$" + value)
 elif '$' in format_string:
+    # Step 3.2:
     print("$" + value)
 elif '-' in format_string:
     pass
