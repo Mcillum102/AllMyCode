@@ -5,6 +5,13 @@
       "type": "java",
       "name": "TestReview",
       "request": "launch",
+      "mainClass": "TestReview",
+      "projectName": "AllMyCode_369bbb4e"
+    },
+    {
+      "type": "java",
+      "name": "TestReview",
+      "request": "launch",
       "mainClass": "Finals.TestReview",
       "projectName": "AllMyCode_f85d7af8"
     },
