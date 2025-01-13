@@ -19,7 +19,7 @@ public class CheckDigit {
         for (int i = 1; i <= getNumberOfDigits(num); i++) {
 
             // Add the result with the digit at the ith position of num, multiplied by the multiplier.
-            // Ex: for number 282415; 2 * 7 + 8 * 6 + ... + 5 * 2
+            // Ex: for number 283415; 2 * 7 + 8 * 6 + ... + 5 * 2
             result += getDigit(num, i) * multiplier;
 
             // Decrease the multiplier by 1.
@@ -36,10 +36,22 @@ public class CheckDigit {
      * Precondition: The number of digits in numWithCheckDigit is between two and seven, inclusive.
      * numWithCheckDigit >= 0
      */
-    // public static boolean isValid(int numWithCheckDigit) {
-    //     /* to be implemented in part (b) */
-    // }
+    public static boolean isValid(int numWithCheckDigit) {
+        /* to be implemented in part (b) */
 
+        // Extract the check digit from the number by / 10 and store it in a variable.
+        // Ex: 283415 / 10 = 28341
+        int num = numWithCheckDigit / 10;
+
+        // Extract the check digit from the number by % 10 and store it in a variable.
+        // Ex: 283415 % 10 = 5
+        int check = numWithCheckDigit % 10;
+
+        // Check if the check digit is equal to the getCheck() method of the num.
+        // If they are equal, return true, otherwise return false.
+        return check == getCheck(num);
+    }
+    
     /** Returns the number of digits in num. */
     public static int getNumberOfDigits(int num) {
         /* implementation not shown */
@@ -59,8 +71,4 @@ public class CheckDigit {
     }
 
     // There may be instance variables, constructors, and methods not shown.
-
-    public static void main(String[] args) {
-        
-    }
 }
