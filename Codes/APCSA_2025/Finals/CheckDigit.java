@@ -6,14 +6,28 @@ public class CheckDigit {
      */
     public static int getCheck(int num) {
         /* to be implemented in part (a) */
+
+        // result variable to store the value for additions
         int result = 0;
+
+        // multiplier variable that we need to multiplier for. It will also decrease 1 each time during loop.
         int multiplier = 7;
+
+        // Initialize:  For loop should start from 1, as the n parameter in getDigit() starts from 1.
+        // Condition:   I should be less than or equal to the number of digits in num, where we use getNumberOfDigits() method.
+        // Changes:     Each time, i will increase by 1 to move to the next digit.
         for (int i = 1; i <= getNumberOfDigits(num); i++) {
+
+            // Add the result with the digit at the ith position of num, multiplied by the multiplier.
+            // Ex: for number 282415; 2 * 7 + 8 * 6 + ... + 5 * 2
             result += getDigit(num, i) * multiplier;
+
+            // Decrease the multiplier by 1.
             multiplier--;
         }
+
         // After this loop, I can get the result of whats asked.
-        // Now, we need to extract the rightmost digit.
+        // Now, we need to extract the rightmost digit. Using modulus 10, we can get the rightmost digit.
         return result % 10;
     }
 
@@ -22,13 +36,15 @@ public class CheckDigit {
      * Precondition: The number of digits in numWithCheckDigit is between two and seven, inclusive.
      * numWithCheckDigit >= 0
      */
-    public static boolean isValid(int numWithCheckDigit) {
-        /* to be implemented in part (b) */
-    }
+    // public static boolean isValid(int numWithCheckDigit) {
+    //     /* to be implemented in part (b) */
+    // }
 
     /** Returns the number of digits in num. */
     public static int getNumberOfDigits(int num) {
         /* implementation not shown */
+        String number = Integer.toString(num);
+        return number.length();
     }
 
     /**
@@ -37,8 +53,14 @@ public class CheckDigit {
      */
     public static int getDigit(int num, int n) {
         /* implementation not shown */
+        String number = Integer.toString(num);
+        String digit = number.substring(n-1, n);
+        return Integer.valueOf(digit);
     }
 
     // There may be instance variables, constructors, and methods not shown.
 
+    public static void main(String[] args) {
+        
+    }
 }
