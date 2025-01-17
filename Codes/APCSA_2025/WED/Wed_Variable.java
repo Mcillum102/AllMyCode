@@ -1,6 +1,8 @@
+package WED;
 
 
-public class WedClass2 {
+
+public class Wed_Variable {
 
     public static void main(String[] args) {
         

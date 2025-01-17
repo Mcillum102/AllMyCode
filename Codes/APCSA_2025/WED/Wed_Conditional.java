@@ -1,4 +1,6 @@
-public class WedClass3 {
+package WED;
+
+public class Wed_Conditional {
     
     public static void main(String[] args) {
         // int day = 4+(34%7);

@@ -1,3 +1,4 @@
+package SAT;
 public class SatClass3 {
     
     public static void main(String[] args) {

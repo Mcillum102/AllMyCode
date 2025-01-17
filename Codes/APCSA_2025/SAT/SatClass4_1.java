@@ -1,3 +1,4 @@
+package SAT;
 public class SatClass4_1 {
     
     /*

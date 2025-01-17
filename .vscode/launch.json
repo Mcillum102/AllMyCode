@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Wed_Array",
+      "request": "launch",
+      "mainClass": "Wed_Array",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
+      "name": "Wed_Array",
+      "request": "launch",
+      "mainClass": "Wed.Wed_Array",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
       "name": "TestReview",
       "request": "launch",
       "mainClass": "TestReview",

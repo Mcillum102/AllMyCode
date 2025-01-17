@@ -1,3 +1,5 @@
+package WED;
+
 public class WedClass7 {
 
     // public static boolean sameStarChar(String str) {

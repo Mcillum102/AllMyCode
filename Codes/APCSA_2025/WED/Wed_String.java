@@ -1,4 +1,6 @@
-public class WedClass5 {
+package WED;
+
+public class Wed_String {
     
     // /* We are creating a method that squares numbers (multiply a number by itself) */
     // public static int squareNumbers(int number) {

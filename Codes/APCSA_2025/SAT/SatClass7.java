@@ -1,3 +1,4 @@
+package SAT;
 public class SatClass7 {
 
     public static boolean mixStart(String str) {

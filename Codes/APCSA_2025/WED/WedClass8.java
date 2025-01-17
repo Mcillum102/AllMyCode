@@ -1,3 +1,5 @@
+package WED;
+
 public class WedClass8 {
     public static void main(String[] args) {
         

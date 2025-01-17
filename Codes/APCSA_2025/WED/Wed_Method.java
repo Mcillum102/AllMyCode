@@ -1,6 +1,8 @@
+package WED;
+
 import java.util.Scanner;
 
-public class WedClass4 {
+public class Wed_Method {
 
     /* Method name rules: 
      * 1. don't start with numbers
@@ -38,6 +40,5 @@ public class WedClass4 {
         System.out.println("My name is " + name);
         
         sc.close();
-        SatClass4_1.sayHello();
     }
 }

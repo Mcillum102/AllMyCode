@@ -1,3 +1,5 @@
+package WED;
+
 public class WedClass6 {
 
     public static void printHi() {
