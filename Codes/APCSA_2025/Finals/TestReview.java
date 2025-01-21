@@ -20,12 +20,20 @@ public class TestReview {
     // word = " 8";
     // }
 
+    public void processWords(String word1, String word2){ 
+
+        String str1 = word1.substring(0,2); 
+
+        String str2 = word2.substring(word2.length() -1); 
+
+        String result = str2 + str1; 
+
+        System.out.println(result.indexOf(str2)); 
+
+    } 
+
     public static void main(String[] args) {
         // test();
-        int k = 1;// a is a random number such that 1 <= a <= n
-
-        for (int p = 2; p <= k; p++)
-            for (int r = 1; r < k; r++)
-                System.out.println("Hello");
+    
     }
 }
