@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sat_Array",
+      "request": "launch",
+      "mainClass": "SAT.Sat_Array",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
       "name": "Sat_Overload",
       "request": "launch",
       "mainClass": "SAT.Sat_Overload",
