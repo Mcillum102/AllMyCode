@@ -1,5 +1,5 @@
 package SAT;
-public class SatClass7 {
+public class Sat_Practice {
 
     public static boolean mixStart(String str) {
         // create a substring that contain's the terms that we want to compare

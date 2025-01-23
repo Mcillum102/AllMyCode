@@ -1,5 +1,5 @@
 package SAT;
-public class SatClass2 {
+public class Sat_Type {
     
     public static void main(String[] args) {
         // int x = 0;

@@ -1,6 +1,6 @@
 package WED;
 
-public class WedClass7 {
+public class Wed_String_Method {
 
     // public static boolean sameStarChar(String str) {
     //     // str = "xax*xyza"

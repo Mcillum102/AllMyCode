@@ -1,5 +1,5 @@
 package SAT;
-public class SatClass4 {
+public class Sat_While {
     
     public static void main(String[] args) {
         

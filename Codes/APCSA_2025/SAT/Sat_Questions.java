@@ -1,5 +1,5 @@
 package SAT;
-public class SatClass6 {
+public class Sat_Questions {
 
     // public static boolean factorChecker(int num1,int num2){ 
     //     if (num2 % num1 == 0) {

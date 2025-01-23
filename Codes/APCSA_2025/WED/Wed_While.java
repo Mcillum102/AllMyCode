@@ -1,6 +1,6 @@
 package WED;
 
-public class WedClass4_1 {
+public class Wed_While {
 
     public static void main(String[] args) {
 

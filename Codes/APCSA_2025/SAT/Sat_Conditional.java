@@ -1,5 +1,5 @@
 package SAT;
-public class SatClass3 {
+public class Sat_Conditional {
     
     public static void main(String[] args) {
         

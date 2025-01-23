@@ -1,6 +1,6 @@
 package WED;
 
-public class WedClass6 {
+public class Wed_String2 {
 
     public static void printHi() {
         System.out.println("Hi");

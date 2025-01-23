@@ -1,5 +1,5 @@
 package SAT;
-public class SatClass5 {
+public class Sat_Method2 {
     
 
     /*  Method Names:

@@ -1,6 +1,6 @@
 package WED;
 
-public class WedClass8 {
+public class Wed_StringLoop {
     public static void main(String[] args) {
         
         // String s = "Georgia Tech";
