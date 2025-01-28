@@ -47,12 +47,7 @@ public class Sat_Array {
             System.out.print(intArray[i] + " ");
         }
 
-
-
         // System.out.println(strArray);
-
-
-
 
         // strArray[0] = "Red";
         // strArray[1] = "Blue";

@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sat_ArrayList",
+      "request": "launch",
+      "mainClass": "SAT.Sat_ArrayList",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
+      "name": "Wed_ArrayList",
+      "request": "launch",
+      "mainClass": "WED.Wed_ArrayList",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
+      "name": "Wed_Array",
+      "request": "launch",
+      "mainClass": "WED.Wed_Array",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
       "name": "Sat_Array",
       "request": "launch",
       "mainClass": "SAT.Sat_Array",
