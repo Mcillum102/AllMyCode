@@ -25,10 +25,10 @@ public class Wed_Array {
 
         // We've created an int array named x.
         // We must provide the size of the array.
-        // int[] intArray = new int[6];
-        // String[] strArray = new String[10];
-        // System.out.println(intArray);
-        // System.out.println(strArray);
+        int[] intArray = new int[6];
+        String[] strArray = new String[10];
+        System.out.println(intArray);
+        System.out.println(strArray);
 
         // intArray[0] = 90;
         // intArray[1] = 80;
