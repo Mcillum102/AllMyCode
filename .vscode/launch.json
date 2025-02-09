@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "MultiClass.Main",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
+      "name": "Wed_MultiClass",
+      "request": "launch",
+      "mainClass": "WED.Wed_MultiClass",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
       "name": "Sat_ArrayQuestions",
       "request": "launch",
       "mainClass": "SAT.Sat_ArrayQuestions",

@@ -22,7 +22,6 @@ public class Wed_Array {
     }
 
     public static void main(String[] args) {
-
         // We've created an int array named x.
         // We must provide the size of the array.
         int[] intArray = new int[6];
