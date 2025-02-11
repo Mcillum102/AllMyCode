@@ -21,4 +21,4 @@ print("Ah! RUN AWAY!")
 print(f"Game OVER, your score was {score}")
 if score == 100:
     print("WOAH! YOU WON!")
-    print("WINNER!") 
+    print("WINNER!")

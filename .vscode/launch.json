@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayQuestions",
+      "request": "launch",
+      "mainClass": "javajerry.Array_Practice.ArrayQuestions",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "MultiClass.Main",
