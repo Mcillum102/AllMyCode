@@ -1,7 +1,7 @@
 package MultiClass;
 
-public class EV extends Car {
-    
+public class EV_Car extends Car {
+
     // Override the driveForward method that's in the parent class.
     // Add another line of output that says: Start charging
     

@@ -15,9 +15,11 @@ public class Sat_ArrayQuestions {
         return counter;
     }
 
-    public boolean isIncreasing(ArrayList<Integer> arr) {
-        for(int i = 1; i < arr.size(); i++) {
-            if (arr.get(i) <= arr.get(i - 1)){
+    public boolean isIncreasing(ArrayList<Double> stockPrices) {
+        for (int i = 2; i < stockPrices.size() - 1; i++) {
+            double difference = stockPrices.get(i) - stockPrices.get(i - 1);
+            double firstIncrease = stockPrices.get(i - 1) - stockPrices.get(i - 2);
+            if (difference < firstIncrease) {
                 return false;
             }
         }

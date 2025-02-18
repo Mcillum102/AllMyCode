@@ -64,31 +64,30 @@
 # distance = abs(index_list[0][0] - index_list[1][0]) + abs(index_list[0][1] - index_list[1][1])
 # print(distance)
 
-in1 = input().split(', ')
-in1.pop(0)
-outergrid = []
-innergrid = {}
-index = 1
-for row in range(3):
-    for col in range(3):
-        innergrid.update({str(index):''})
-        index += 1
-    outergrid.append(innergrid)
-    innergrid = {}
-item_index = 0
-while item_index < len(in1):
-    if in1[item_index] in '123':
-        outergrid[0].update({in1[item_index]: in1[item_index+1]})
-    elif in1[item_index] in '456':
-        outergrid[1].update({in1[item_index]: in1[item_index+1]})
-    elif in1[item_index] in '789':
-        outergrid[2].update({in1[item_index]: in1[item_index+1]})
-    item_index += 2
-letters = []
-for d in outergrid:
-    letters.append(list(d.values()))
-    
-    
+# in1 = input().split(', ')
+# in1.pop(0)
+# outergrid = [['' for k in range(3)] for j in range(3)]
 
-print(letters)
+# # Adding the known letters
+# item_index = 0
+# while item_index < len(in1):
+#     position = int(in1[item_index]) - 1
+#     row, col = position // 3, position % 3
+#     outergrid[row][col] = in1[item_index + 1]
+#     item_index += 2
+
+# # Adding the others
+# for row in range(3):
+#     for col in range(3):
+#         if outergrid[row][col] == '':
+#             current_row = set(outergrid[row])
+#             current_col = {outergrid[i][col] for i in range(3)}
+#             availables = {'A', 'B', 'C'} - (current_row | current_col)
+            
+#             if len(availables) >= 1:
+#                 outergrid[row][col] = availables.pop()
+# for r in outergrid:
+#     for c in r:
+#         print(c, end='')
+# print()
 
