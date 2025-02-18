@@ -91,3 +91,37 @@
 #         print(c, end='')
 # print()
 
+
+grid = [[1,2,3,4,5],
+        [6,7,8,9,10],
+        [11,12,13,14,15],
+        [16,17,18,19,20],
+        [21,22,23,24,25]]
+x = int(input())
+y = int(input())
+for i in range(len(grid)):
+    for j in range(len(grid[i])):
+        if grid[i][j] == x:
+            xpos = [i, j] # this way we know where x is in the grid
+        if grid[i][j] == y:
+            ypos = [i, j]
+# idifference = abs(xpos[0] - ypos[0])
+# jdifference = abs(xpos[1] - ypos[1])
+# distance = idifference+jdifference 
+
+# Challenge upgrade:
+# Try to print out the path you will go on when moving from your position to treasure.
+# Example: treasure at 7, you at 19.
+# You should go on a path that is: 19-14-9-8-7.
+# The output for the upgrade will be: 19 14 9 8 7
+path_list = [grid[ypos[0]][ypos[1]]]      # Records all the grid number that we walked on
+while ypos[0] != xpos[0]:
+    if ypos[0] > xpos[0]:
+        ypos[0] -= 1
+        path_list.append(grid[ypos[0]][ypos[1]])
+    elif xpos[0] > ypos[0]:
+        ypos[0] += 1
+        path_list.append(grid[ypos[0]][ypos[1]])
+
+print(path_list)
+print(ypos)
