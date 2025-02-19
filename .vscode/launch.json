@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HeartPumpingGUI",
+      "request": "launch",
+      "mainClass": "HeartPumpingGUI",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
       "name": "ArrayQuestions",
       "request": "launch",
       "mainClass": "javajerry.Array_Practice.ArrayQuestions",
