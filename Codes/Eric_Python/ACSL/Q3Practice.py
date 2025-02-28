@@ -102,11 +102,11 @@ y = int(input())
 for i in range(len(grid)):
     for j in range(len(grid[i])):
         if grid[i][j] == x:
-            xpos = [i, j] # this way we know where x is in the grid
+            treasure_pos = [i, j] # this way we know where x is in the grid
         if grid[i][j] == y:
-            ypos = [i, j]
-# idifference = abs(xpos[0] - ypos[0])
-# jdifference = abs(xpos[1] - ypos[1])
+            your_pos = [i, j]
+# idifference = abs(treasure_pos[0] - your_pos[0])
+# jdifference = abs(treasure_pos[1] - your_pos[1])
 # distance = idifference+jdifference 
 
 # Challenge upgrade:
@@ -114,14 +114,26 @@ for i in range(len(grid)):
 # Example: treasure at 7, you at 19.
 # You should go on a path that is: 19-14-9-8-7.
 # The output for the upgrade will be: 19 14 9 8 7
-path_list = [grid[ypos[0]][ypos[1]]]      # Records all the grid number that we walked on
-while ypos[0] != xpos[0]:
-    if ypos[0] > xpos[0]:
-        ypos[0] -= 1
-        path_list.append(grid[ypos[0]][ypos[1]])
-    elif xpos[0] > ypos[0]:
-        ypos[0] += 1
-        path_list.append(grid[ypos[0]][ypos[1]])
+path_list = [grid[your_pos[0]][your_pos[1]]]      # Records all the grid number that we walked on
 
+# The following while loop compares your row postion and the treasure's row position
+for i in range(2):
+    while your_pos[i] != treasure_pos[i]:
+        if your_pos[i] > treasure_pos[i]:
+            your_pos[i] -= 1
+            path_list.append(grid[your_pos[0]][your_pos[1]])
+        elif treasure_pos[i] > your_pos[i]:
+            your_pos[i] += 1
+            path_list.append(grid[your_pos[0]][your_pos[1]])
+
+# Please think about the code to write, so you are moving towards the treasure based on col
+# Compare your col with treasure's col
+# while your_pos[1] != treasure_pos[1]:
+#     if your_pos[1] > treasure_pos[1]:
+#         your_pos[1] -= 1
+#         path_list.append(grid[your_pos[0]][your_pos[1]])
+#     elif treasure_pos[1]>your_pos[1]:
+#         your_pos[1] += 1
+#         path_list.append(grid[your_pos[0]][your_pos[1]])
 print(path_list)
-print(ypos)
+

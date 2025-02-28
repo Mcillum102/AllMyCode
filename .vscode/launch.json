@@ -5,6 +5,13 @@
       "type": "java",
       "name": "Wed_2DArray",
       "request": "launch",
+      "mainClass": "Wed_2DArray",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
+      "name": "Wed_2DArray",
+      "request": "launch",
       "mainClass": "WED.Wed_2DArray",
       "projectName": "AllMyCode_f85d7af8"
     },

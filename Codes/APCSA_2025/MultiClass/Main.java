@@ -33,5 +33,9 @@ public class Main {
         Object obj = new Object();
 
         Airplane a1 = new Airplane();
+
+        Car c3 = new Car();
+        System.out.println(c3.getModel());
+        
     }
 }

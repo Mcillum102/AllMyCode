@@ -7,7 +7,10 @@ public class Car extends Vehicle {
     // super() will try to call the default constructor in Vehicle (parent class)
     // If no default in parent, car needs to call super with one of the constructors in parent.
     // We can use a default constructor in child only if there is a default constructor in parent.
-    public Car() {}
+    public Car() {
+        super();
+        this.driveMode = "";
+    }
 
     // The constructors in subclasses will usually have the parameters that's from the parent class.
     public Car(String make, String model, int year, int nW, double mileage, String dM) {

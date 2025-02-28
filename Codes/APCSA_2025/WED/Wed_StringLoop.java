@@ -1,4 +1,4 @@
-package WED;
+
 
 public class Wed_StringLoop {
     public static void main(String[] args) {

@@ -9,7 +9,9 @@ public class Vehicle {
     private int numOfWheels;
     private double mileage;
     
-    public Vehicle() {}
+    public Vehicle() {
+        this.model = "Unknown";
+    }
 
     public Vehicle(String make, String model, int year, int nW, double mileage) {
         this.make = make;
