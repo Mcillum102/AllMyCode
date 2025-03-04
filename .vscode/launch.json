@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sat_PE",
+      "request": "launch",
+      "mainClass": "Sat_PE",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
       "name": "Wed_2DArray",
       "request": "launch",
       "mainClass": "Wed_2DArray",

@@ -1,7 +1,4 @@
-package SAT;
-
 import java.util.*;
-
 public class Sat_ArrayList {
     
     public static void main(String[] args) {

@@ -1,5 +1,3 @@
-package SAT;
-
 public class Sat_Array {
 
     // String[] a = {"four", "score", "and", "seven", "years", "ago"};
