@@ -1,4 +1,3 @@
-package SAT;
 public class Sat_While {
     
     public static void main(String[] args) {
@@ -12,7 +11,6 @@ public class Sat_While {
         int x = 1;      // We recommand create a variable, and to use it as a part of the condition
     
         while (x < 11) {
-            
             System.out.print(x + " ");     // Whenever x is greater than 0, we print this line
                                                // minus 1 from x
             x++;

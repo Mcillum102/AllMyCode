@@ -1,7 +1,5 @@
-package SAT;
-
 public class Sat_Overload {
-
+    
     private String name;
 
     // If there's no constructor, this will be the only constructor

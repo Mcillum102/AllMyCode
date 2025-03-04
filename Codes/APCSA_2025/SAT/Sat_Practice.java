@@ -1,4 +1,3 @@
-package SAT;
 public class Sat_Practice {
 
     public static boolean mixStart(String str) {

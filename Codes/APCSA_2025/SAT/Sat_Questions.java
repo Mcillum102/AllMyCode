@@ -1,4 +1,3 @@
-package SAT;
 public class Sat_Questions {
 
     // public static boolean factorChecker(int num1,int num2){ 

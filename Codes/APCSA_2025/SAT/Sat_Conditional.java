@@ -1,4 +1,3 @@
-package SAT;
 public class Sat_Conditional {
     
     public static void main(String[] args) {
