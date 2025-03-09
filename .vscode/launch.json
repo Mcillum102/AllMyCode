@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Exam2015",
+      "request": "launch",
+      "mainClass": "Exam2015",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
       "name": "Sat_PE",
       "request": "launch",
       "mainClass": "Sat_PE",

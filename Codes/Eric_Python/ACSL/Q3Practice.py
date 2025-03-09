@@ -137,3 +137,6 @@ for i in range(2):
 #         path_list.append(grid[your_pos[0]][your_pos[1]])
 print(path_list)
 
+
+
+# How to do a binary search with the word: Computer?
