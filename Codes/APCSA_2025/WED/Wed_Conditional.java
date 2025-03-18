@@ -1,5 +1,3 @@
-
-
 public class Wed_Conditional {
     
     public static void main(String[] args) {

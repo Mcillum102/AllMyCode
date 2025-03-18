@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LocationNumeral",
+      "request": "launch",
+      "mainClass": "LocationNumeral",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
+      "name": "Password",
+      "request": "launch",
+      "mainClass": "Password",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
       "name": "DiverseArray",
       "request": "launch",
       "mainClass": "DiverseArray",

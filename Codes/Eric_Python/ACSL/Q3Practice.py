@@ -5,24 +5,36 @@
 2 3 4
 5 6 7 8 9
 10 11 12 13 14 15 16
+17 
 '''
-# linelength = 1
-# currentnumber = 1
-# innerlist = []
-# outerlist = []
-# maxnumber = 16
-# increase_length = 2
-# while currentnumber <= maxnumber:
-#     if len(innerlist) < linelength:
-#         innerlist.append(currentnumber)
-#         currentnumber += 1
-#     else:
-#         outerlist.append(innerlist)
-#         innerlist = []
-#         linelength += increase_length
-# else:
-#     outerlist.append(innerlist)
-# print(outerlist)
+linelength = 1
+currentnumber = 1
+innerlist = []
+outerlist = []
+maxnumber = 25
+increase_length = 4
+while currentnumber <= maxnumber:
+    if len(innerlist) < linelength:
+        innerlist.append(currentnumber)
+        currentnumber += 1
+    else:
+        outerlist.append(innerlist)
+        innerlist = []
+        linelength += increase_length
+else:
+    outerlist.append(innerlist)
+print(outerlist)
+
+for i in range(len(outerlist)):
+    for j in range(len(outerlist[i])):
+        if outerlist[i][j] == 24:
+            mcord = [i,j]
+        if outerlist[i][j] == 25:
+            ncord = [i,j]
+
+print(abs(mcord[0]-ncord[0]))
+
+
 
 # Now, based on the code above, make them as elements of a list instead of a string
 # Think about the 2d list idea, you will have a list as: [[1], [2,3,4], [5,6,7,8,9], [...]]
@@ -92,19 +104,19 @@
 # print()
 
 
-grid = [[1,2,3,4,5],
-        [6,7,8,9,10],
-        [11,12,13,14,15],
-        [16,17,18,19,20],
-        [21,22,23,24,25]]
-x = int(input())
-y = int(input())
-for i in range(len(grid)):
-    for j in range(len(grid[i])):
-        if grid[i][j] == x:
-            treasure_pos = [i, j] # this way we know where x is in the grid
-        if grid[i][j] == y:
-            your_pos = [i, j]
+# grid = [[1,2,3,4,5],
+#         [6,7,8,9,10],
+#         [11,12,13,14,15],
+#         [16,17,18,19,20],
+#         [21,22,23,24,25]]
+# x = int(input())
+# y = int(input())
+# for i in range(len(grid)):
+#     for j in range(len(grid[i])):
+#         if grid[i][j] == x:
+#             treasure_pos = [i, j] # this way we know where x is in the grid
+#         if grid[i][j] == y:
+#             your_pos = [i, j]
 # idifference = abs(treasure_pos[0] - your_pos[0])
 # jdifference = abs(treasure_pos[1] - your_pos[1])
 # distance = idifference+jdifference 
@@ -114,17 +126,17 @@ for i in range(len(grid)):
 # Example: treasure at 7, you at 19.
 # You should go on a path that is: 19-14-9-8-7.
 # The output for the upgrade will be: 19 14 9 8 7
-path_list = [grid[your_pos[0]][your_pos[1]]]      # Records all the grid number that we walked on
+# path_list = [grid[your_pos[0]][your_pos[1]]]      # Records all the grid number that we walked on
 
-# The following while loop compares your row postion and the treasure's row position
-for i in range(2):
-    while your_pos[i] != treasure_pos[i]:
-        if your_pos[i] > treasure_pos[i]:
-            your_pos[i] -= 1
-            path_list.append(grid[your_pos[0]][your_pos[1]])
-        elif treasure_pos[i] > your_pos[i]:
-            your_pos[i] += 1
-            path_list.append(grid[your_pos[0]][your_pos[1]])
+# # The following while loop compares your row postion and the treasure's row position
+# for i in range(2):
+#     while your_pos[i] != treasure_pos[i]:
+#         if your_pos[i] > treasure_pos[i]:
+#             your_pos[i] -= 1
+#             path_list.append(grid[your_pos[0]][your_pos[1]])
+#         elif treasure_pos[i] > your_pos[i]:
+#             your_pos[i] += 1
+#             path_list.append(grid[your_pos[0]][your_pos[1]])
 
 # Please think about the code to write, so you are moving towards the treasure based on col
 # Compare your col with treasure's col
@@ -135,8 +147,9 @@ for i in range(2):
 #     elif treasure_pos[1]>your_pos[1]:
 #         your_pos[1] += 1
 #         path_list.append(grid[your_pos[0]][your_pos[1]])
-print(path_list)
+# print(path_list)
 
 
 
 # How to do a binary search with the word: Computer?
+
