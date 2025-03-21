@@ -1,6 +1,9 @@
 # Output from python
-print('Hello')
-print("Martin")
+print('What is your name?')
+print("Test")
+
+print("What is your favorite sport?")
+print("Soccer")
 
 # variable in python is used to store values
 # x (left side of the =) is the variable name, 100 (right side of the =) is the value
@@ -11,12 +14,13 @@ print(x)
 
 # Types of Variables
 # number types:
-'''Integers''' # int() # a type relating to whole numbers
+'''Integers''' 
+# int() # a type relating to whole numbers
 x = 2 # x now is an integer variable
 b = 50
 print(x*b)
 print('')
-# '''Floats''' # float() # a type relating to numbers with decimals
+'''Floats''' # float() # a type relating to numbers with decimals
 # pi = 3.1415 # pi now is a float variable
 # zero = 3.0 # any number with .0 after is consider as float too
 
