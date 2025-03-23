@@ -1,18 +1,21 @@
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
-int main() {
+int main()
+{
+    srand(time(NULL));
     // try to print something
-    cout << "Hello World!\n";
+    // cout << "Hello World!\n";
 
-    // primitive types
-    int num = 100;
-    double deci = 10.2;
-    cout << "The number is " << num << "\n"<<deci<<"\n";
+    // // primitive types
+    // int num = 100;
+    // double deci = 10.2;
+    // cout << "The number is " << num << "\n"
+    //      << deci << "\n";
 
-
-    // reference types
-    string name = "Owen";
+    // // reference types
+    // string name = "Owen";
 
     // input
     // create a variable to store your input
@@ -24,5 +27,11 @@ int main() {
         2. calculated the average number
         output both results
     */
+    cout << "MAGIC 8-BALL:\n\n";
 
+    int answer = rand() % 6 + 3;
+
+    cout << answer << "\n";
+
+    
 }

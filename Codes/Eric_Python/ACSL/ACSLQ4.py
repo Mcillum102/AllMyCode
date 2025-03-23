@@ -41,8 +41,8 @@
 # print(different_letters)
 
 # Try 3:
-in1 = "3 Computer"
-# 1. how to extract both 2 and Computer?
+in1 = "2 Computer BAT"
+# 1. how to extract both 2 and 'Computer BAT' from in1?
 # 1a. 2 is an int, Computer must be uppercase
 in1 = in1.upper()
 n = int(in1[0])

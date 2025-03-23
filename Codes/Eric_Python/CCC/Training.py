@@ -63,16 +63,16 @@ word = list(word)
 
 target = sorted(word)
 
-counter = 0
-for i in range(len(word)-1):
-    if word[i] != target[i]:
-        for j in range(i+1, len(word)):
-            if ord(word[i]) > ord(word[j]):
-                if word[j] == target[i]:
-                    temp = word[i]
-                    word[i] = word[j]
-                    word[j] = temp
-                    counter += 1
-                    break
+# counter = 0
+# for i in range(len(word)-1):
+#     if word[i] != target[i]:
+#         for j in range(i+1, len(word)):
+#             if ord(word[i]) > ord(word[j]):
+#                 if word[j] == target[i]:
+#                     temp = word[i]
+#                     word[i] = word[j]
+#                     word[j] = temp
+#                     counter += 1
+#                     break
 
-print(counter, word)
+# print(counter)
