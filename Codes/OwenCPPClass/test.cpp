@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include <vector>
 using namespace std;
 
 int main()
@@ -33,5 +34,20 @@ int main()
 
     cout << answer << "\n";
 
+    vector<int> v1 = {1,2,3,4,5};
+
+    for (int i = 0; i < v1.size(); i++)
+        cout << v1[i] << " ";
+
+    cout << "\n";
     
+
+    /*  1 byte = 8 bits
+        decimal 10 -> binary 00001010 (4 bits)
+        int x = 10; x is taking 4 bytes (int) of memory
+
+        int y = 1; y = 00000001, it's still taking 4 bytes
+
+        int z = 20; 0001 0100
+    */
 }

@@ -58,10 +58,10 @@
 # else:
 #     print("T")
 
-word = input()
-word = list(word)
+# word = input()
+# word = list(word)
 
-target = sorted(word)
+# target = sorted(word)
 
 # counter = 0
 # for i in range(len(word)-1):
@@ -76,3 +76,20 @@ target = sorted(word)
 #                     break
 
 # print(counter)
+import sys
+
+n = int(input())
+arr = [-1] + [input() for _ in range(n)]
+
+if all(i == "S" for i in arr[1:]):
+    print(n - 1)
+    sys.exit()
+
+dp = [[0, 0] for _ in range(n + 1)]
+for i in range(1, n + 1):
+    if arr[i] == "S":
+        dp[i][0] = dp[i - 1][0] + 1
+        dp[i][1] = dp[i - 1][1] + 1
+    else:
+        dp[i][1] = dp[i - 1][0] + 1
+print(max(max(state) for state in dp))

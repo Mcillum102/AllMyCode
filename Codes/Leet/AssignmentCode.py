@@ -8,4 +8,5 @@ if len(nums) > 2:
             nums[i+1] = 1 if nums[i] == 0 else 0
             nums[i+2] = 1 if nums[i] == 0 else 0
 print()
+
             
