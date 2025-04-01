@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Exam2024",
+      "request": "launch",
+      "mainClass": "Exam2024",
+      "projectName": "AllMyCode_889f7231"
+    },
+    {
+      "type": "java",
       "name": "Diagnostic2025",
       "request": "launch",
       "mainClass": "Diagnostic2025",
