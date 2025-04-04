@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Exam2024_1 {
 
     private int currentFood;

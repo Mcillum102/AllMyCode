@@ -59,5 +59,9 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "java.debug.settings.onBuildFailureProceed": true,
   "java.debug.settings.showQualifiedNames": false,
-  "java.debug.settings.showStaticVariables": false
+  "java.debug.settings.showStaticVariables": false,
+  "files.associations": {
+    "*.rmd": "markdown",
+    "vector": "cpp"
+  }
 }

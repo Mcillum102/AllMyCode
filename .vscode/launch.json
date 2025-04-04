@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Exam2024_1",
+      "request": "launch",
+      "mainClass": "Exam2024_1",
+      "projectName": "AllMyCode_889f7231"
+    },
+    {
+      "type": "java",
+      "name": "Exam2024_3",
+      "request": "launch",
+      "mainClass": "Exam2024_3",
+      "projectName": "AllMyCode_889f7231"
+    },
+    {
+      "type": "java",
       "name": "Exam2024",
       "request": "launch",
       "mainClass": "Exam2024",
