@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sign",
+      "request": "launch",
+      "mainClass": "Exam2023.Q2.Sign",
+      "projectName": "AllMyCode_889f7231"
+    },
+    {
+      "type": "java",
       "name": "Exam2024_1",
       "request": "launch",
       "mainClass": "Exam2024_1",
