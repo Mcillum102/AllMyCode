@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -34,14 +35,13 @@ int main()
 
     cout << answer << "\n";
 
-    vector<int> v1 = {1,2,3,4,5};
-
-    for (int i = 0; i < v1.size(); i++)
-        cout << v1[i] << " ";
-
-    cout << "\n";
-    
-
+    vector<int> v1 = {1, 2, 3, 4, 5};
+    reverse(v.begin(), v.end());
+    for (int i : v)
+    {
+        cout << i << " ";
+    }
+    return 0;
     /*  1 byte = 8 bits
         decimal 10 -> binary 00001010 (4 bits)
         int x = 10; x is taking 4 bytes (int) of memory
@@ -50,6 +50,4 @@ int main()
 
         int z = 20; 0001 0100
     */
-
-    
 }
