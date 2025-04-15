@@ -22,7 +22,7 @@ int main() {
         return 0;
     }
 
-    vector<vector<int>> dp(n + 1, vector<int>(2, 0));
+    vector<vector<int> > dp(n + 1, vector<int>(2, 0));
 
     for (int i = 1; i <= n; ++i) {
         if (arr[i] == "S") {

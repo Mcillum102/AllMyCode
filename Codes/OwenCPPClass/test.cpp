@@ -8,7 +8,7 @@ int main()
 {
     srand(time(NULL));
     // try to print something
-    // cout << "Hello World!\n";
+    cout << "Hello World!\n";
 
     // // primitive types
     // int num = 100;
@@ -35,13 +35,6 @@ int main()
 
     cout << answer << "\n";
 
-    vector<int> v1 = {1, 2, 3, 4, 5};
-    reverse(v.begin(), v.end());
-    for (int i : v)
-    {
-        cout << i << " ";
-    }
-    return 0;
     /*  1 byte = 8 bits
         decimal 10 -> binary 00001010 (4 bits)
         int x = 10; x is taking 4 bytes (int) of memory
