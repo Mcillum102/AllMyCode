@@ -1,21 +1,26 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-        "name": "Run C++ File",
-        "type": "cppdbg",
-        "request": "launch",
-        "program": "/Users/shuhancao/AllMyCode/Codes/OwenCPPClass/test2",
-        "args": [],
-        "stopAtEntry": false,
-        "cwd": "${fileDirname}",
-        "environment": [],
-        "externalConsole": false,
-        "MIMode": "lldb",                    
-        "preLaunchTask": "build with clang++" 
-        }
-    ]   
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run C++ File",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/Users/shuhancao/AllMyCode/Codes/OwenCPPClass/test2",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "build with clang++"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/shuhancao/AllMyCode/Codes/OwenCPPClass",
+      "program": "/Users/shuhancao/AllMyCode/Codes/OwenCPPClass/build/Debug/outDebug"
+    }
+  ]
 }
