@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "StepTracker",
+      "request": "launch",
+      "mainClass": "javajerry.AP2023.StepTracker",
+      "projectName": "AllMyCode_889f7231"
+    },
+    {
       "name": "Run C++ File",
       "type": "cppdbg",
       "request": "launch",
