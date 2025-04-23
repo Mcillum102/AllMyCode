@@ -1,13 +1,14 @@
 #include <iostream>
 #include <cstdlib>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 int main()
 {
     srand(time(NULL));
     // try to print something
-    // cout << "Hello World!\n";
+    cout << "Hello World!\n";
 
     // // primitive types
     // int num = 100;
@@ -33,14 +34,6 @@ int main()
     int answer = rand() % 6 + 3;
 
     cout << answer << "\n";
-
-    vector<int> v1 = {1,2,3,4,5};
-
-    for (int i = 0; i < v1.size(); i++)
-        cout << v1[i] << " ";
-
-    cout << "\n";
-    
 
     /*  1 byte = 8 bits
         decimal 10 -> binary 00001010 (4 bits)

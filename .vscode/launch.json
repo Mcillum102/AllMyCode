@@ -3,266 +3,31 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Exam2024",
+      "name": "StepTracker",
       "request": "launch",
-      "mainClass": "Exam2024",
+      "mainClass": "javajerry.AP2023.StepTracker",
       "projectName": "AllMyCode_889f7231"
     },
     {
-      "type": "java",
-      "name": "Diagnostic2025",
+      "name": "Run C++ File",
+      "type": "cppdbg",
       "request": "launch",
-      "mainClass": "Diagnostic2025",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Exam2014",
-      "request": "launch",
-      "mainClass": "Exam2014",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "LocationNumeral",
-      "request": "launch",
-      "mainClass": "LocationNumeral",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Password",
-      "request": "launch",
-      "mainClass": "Password",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "DiverseArray",
-      "request": "launch",
-      "mainClass": "DiverseArray",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Exam2015",
-      "request": "launch",
-      "mainClass": "Exam2015",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Solution",
-      "request": "launch",
-      "mainClass": "Solution",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Sat_PE",
-      "request": "launch",
-      "mainClass": "Sat_PE",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Wed_2DArray",
-      "request": "launch",
-      "mainClass": "Wed_2DArray",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Wed_2DArray",
-      "request": "launch",
-      "mainClass": "WED.Wed_2DArray",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "HeartPumpingGUI",
-      "request": "launch",
-      "mainClass": "HeartPumpingGUI",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "ArrayQuestions",
-      "request": "launch",
-      "mainClass": "javajerry.Array_Practice.ArrayQuestions",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "MultiClass.Main",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Wed_MultiClass",
-      "request": "launch",
-      "mainClass": "WED.Wed_MultiClass",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Sat_ArrayQuestions",
-      "request": "launch",
-      "mainClass": "SAT.Sat_ArrayQuestions",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Sat_ArrayList",
-      "request": "launch",
-      "mainClass": "SAT.Sat_ArrayList",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Wed_ArrayList",
-      "request": "launch",
-      "mainClass": "WED.Wed_ArrayList",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Wed_Array",
-      "request": "launch",
-      "mainClass": "WED.Wed_Array",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Sat_Array",
-      "request": "launch",
-      "mainClass": "SAT.Sat_Array",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Sat_Overload",
-      "request": "launch",
-      "mainClass": "SAT.Sat_Overload",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Wed_Array",
-      "request": "launch",
-      "mainClass": "Wed_Array",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Wed_Array",
-      "request": "launch",
-      "mainClass": "Wed.Wed_Array",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "TestReview",
-      "request": "launch",
-      "mainClass": "TestReview",
-      "projectName": "AllMyCode_369bbb4e"
-    },
-    {
-      "type": "java",
-      "name": "TestReview",
-      "request": "launch",
-      "mainClass": "Finals.TestReview",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Customer",
-      "request": "launch",
-      "mainClass": "Finals.Customer",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "TestReview",
-      "request": "launch",
-      "mainClass": "TestReview",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "Main",
-      "projectName": "AllMyCode_d2e40940"
-    },
-    {
-      "type": "java",
-      "name": "Launch Java Program",
-      "request": "launch",
-      "mainClass": ""
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "Main",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Test",
-      "request": "launch",
-      "mainClass": "javajerry.Test",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "SatClass9",
-      "request": "launch",
-      "mainClass": "SatClass9",
-      "projectName": "AllMyCode_c99f7a11"
-    },
-    {
-      "type": "java",
-      "name": "Car",
-      "request": "launch",
-      "mainClass": "Car",
-      "projectName": "AllMyCode_c99f7a11"
-    },
-    {
-      "type": "java",
-      "name": "PanelSwitcher",
-      "request": "launch",
-      "mainClass": "Test.PanelSwitcher",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "JustTheSolarSimulatorFodler.Main",
-      "projectName": "AllMyCode_f85d7af8"
+      "program": "/Users/shuhancao/AllMyCode/Codes/OwenCPPClass/test2",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "build with clang++"
     },
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
+      "type": "lldb",
       "request": "launch",
       "args": [],
-      "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/workspaces/AllMyCode",
-      "program": "/workspaces/AllMyCode/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
+      "cwd": "/Users/shuhancao/AllMyCode/Codes/OwenCPPClass",
+      "program": "/Users/shuhancao/AllMyCode/Codes/OwenCPPClass/build/Debug/outDebug"
     }
   ]
 }
