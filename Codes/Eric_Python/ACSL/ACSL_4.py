@@ -42,3 +42,9 @@ positions = [v for v in result.values()]
 pos = [str(positions[i]-positions[i-1]-1) for i in range(1, len(positions))]
 
 print(" ".join(pos))
+
+ex = list(enumerate(pos))
+# map()
+# sorted()
+print(ex)
+
