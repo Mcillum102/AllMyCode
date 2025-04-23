@@ -85,7 +85,9 @@
 # print(len(uniques))
 
 '''2013-2014'''
-in1 = "9678415, 4"
+
+'''
+in1 = "4361842, 7"
 in1 = in1.split(", ")
 
 numbers = list(map(int, in1[0]))
@@ -101,6 +103,7 @@ best = []
 #     # Find out if total is a multiple of 5 and if it is larger than largest
 #     if total % 5 == 0 and total > largest:
 #         largest = total
+numbers.sort(reverse=True)
 for i in range(1, len(numbers)):
     stop = length
     sub1 = numbers[0 : i]
@@ -119,6 +122,101 @@ for i in range(1, len(numbers)):
 print(largest)
 # Which variable do I print? How to print each number from high to low?
 best.sort(reverse=True)
-for i in best:
-    print(i, end="")
-print()
+if largest == 0:
+    print('None')
+else:
+    for i in best:
+        print(i, end="")
+'''
+
+
+
+
+
+'''Sample Question'''
+'''
+You have a string that looks like this: Sentence = 'Today     is very      hot     I want     to    swim   in the   pool' 
+Your goal is to find out the spaces between each word in this sentence.
+For example, today and is are 5 space away from each other. is and very are 1 space away
+Please output your result as: 5 1 5 5 .... (number of space following with space, then the next one)
+Try your code below please:
+
+sentence = "Today     is very      hot     I want     to    swim   in the   pool"
+spacelist=[]
+spacestring=""
+spacecountlist=[]
+for i in sentence:
+    if i == " ":
+        spacestring+=i
+    if i != " " and spacestring!="":
+        spacelist.append(spacestring)
+        spacestring=""
+for i in spacelist:
+    spacecountlist.append(str(len(i)))
+print(' '.join(spacecountlist))
+'''
+
+'''
+How can i perfom binary search for helicopter in python?
+I want to store each letter into the list.
+First, lets practice inserting word into list with binary search technique
+
+word = 'helicopter'
+left = ['e','c','e','r']        
+right = ['l','i','o','p', 't',]
+
+correct = ['h', 'e', 'l', 'i', 'c',]
+'''
+
+word = 'helicopter'
+# word = list(word)
+# print(word)
+
+# left = [word[0]]
+# right = [word[0]]
+# row_number  = 0
+# nodes = 0
+# result = [word[0]]
+
+# for i in range(1, len(word)):
+#     # how to compare strings here? how to use unicode data ord() to compare
+#     if ord(word[i])>ord(word[0]):
+#         right.append(i)
+#         nodes += 1
+#     else:
+#         left.append(i)
+#         nodes += 1       
+#     if nodes == 2 ** row_number and nodes != 1:
+#         row_number += 1
+# print(left)
+# print(right)
+# word_dict = {-1: [word[0], word[0]]}
+# word_dict.update({index: [] for index in range(len(word))})
+# index = 0
+# count = 0
+# print(word_dict.get(0))
+# print(word_dict)
+# for i in range(1, len(word)):
+#     # how to compare strings here? how to use unicode data ord() to compare
+#     # len of the value list is checking to see if this node has two sub nodes already?
+#     letter1 = ord(word[i])
+#     letter2 = ord(word_dict.get(index-1)[count])
+#     if letter1 >= letter2:
+#         if len(word_dict.get(index)) != 2:
+#             word_dict.get(index).append(word[i])
+#             count += 1
+#         else:
+#             index += 1
+            
+#     else:
+#         if len(word_dict.get(index)) != 2:
+#             word_dict.get(index).append(word[i])
+#             count += 1
+#         else:
+#             index += 1
+#     if count == 2:
+#         count = 0
+    
+# print(word_dict)
+# # print(list(word_dict.keys()))
+
