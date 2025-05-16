@@ -1,5 +1,3 @@
-
-
 public class Animal {
     
     // Fields / Properties

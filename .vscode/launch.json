@@ -26,8 +26,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/shuhancao/AllMyCode/Codes/OwenCPPClass",
-      "program": "/Users/shuhancao/AllMyCode/Codes/OwenCPPClass/build/Debug/outDebug"
+      "cwd": "/Users/shuhancao/AllMyCode",
+      "program": "/Users/shuhancao/AllMyCode/build/Debug/outDebug"
     }
   ]
 }
