@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "AllMyCode_889f7231"
+    },
+    {
+      "type": "java",
       "name": "StepTracker",
       "request": "launch",
       "mainClass": "javajerry.AP2023.StepTracker",
