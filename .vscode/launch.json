@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CarA",
+      "request": "launch",
+      "mainClass": "CarA",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
       "name": "Car",
       "request": "launch",
       "mainClass": "Car",

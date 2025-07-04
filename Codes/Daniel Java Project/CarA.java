@@ -1,4 +1,4 @@
-public class Car {
+public class CarA {
 
     // Properties / Fields
     // These information are usually the identities of something
@@ -11,7 +11,7 @@ public class Car {
     // The methods that creates Objects
     // Contructor will always be public
     // public Car() {}     // deafult constructor
-    public Car(double theSpeed, int theYearBuilt, String theColor) {
+    public CarA(double theSpeed, int theYearBuilt, String theColor) {
         speed = theSpeed;
         yearBuilt = theYearBuilt;
         color = theColor;
@@ -19,13 +19,9 @@ public class Car {
         // parameter are variables that accepts values from other places that calls the method
     }
     
-
-
-
-
     public static void main(String[] args) {
 
-        Car c = new Car(110.5, 2021, "white");      // This will create a car object that's stored in variable c
+        CarA c = new CarA(110.5, 2021, "white");      // This will create a car object that's stored in variable c
         // The first Car is the type of the variable
         // The second Car() is a constructor
         System.out.println(c.speed);
