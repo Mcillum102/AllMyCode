@@ -31,12 +31,12 @@ public class Wed_String_Method {
 
 
         // Create a string object s
-       
+        String s = "Hi";
 
         // For all objects, they are able to use the methods in their classes (Type)
         // Now, we can use s. to call and use string methods
 
-        // int len = s.length();
+        int len = s.length();
         // int aIndex = s.indexOf("a");
         
         // System.out.println(len);
@@ -70,7 +70,6 @@ public class Wed_String_Method {
         // String s1 = "Hi";
         // String s2 = s1.substring(0,1);
         // String s3 = s2;
-
         String s1 = new String("hi there");
         int pos = s1.indexOf("e");
         String s2 = s1.substring(0,pos);

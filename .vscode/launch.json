@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Date",
+      "request": "launch",
+      "mainClass": "Date",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
+      "name": "Sat_ArrayList",
+      "request": "launch",
+      "mainClass": "Sat_ArrayList",
+      "projectName": "AllMyCode_f85d7af8"
+    },
+    {
+      "type": "java",
       "name": "CarA",
       "request": "launch",
       "mainClass": "CarA",
