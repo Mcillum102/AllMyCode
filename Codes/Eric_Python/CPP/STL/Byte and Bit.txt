@@ -1,0 +1,15 @@
+Bit
+- a digit either 1 or 0
+
+Byte: formed by 8-bits
+- stores 8-bits to represent a set value or data
+
+Binary number:
+- 0x00000010    1 byte data --> 2 in decimal
+
+int - 32-bits / 4 bytes
+- 00000000 00000000 00000000 00000000
+- the size of the top is 32 digits
+- the largest number you can enter will be 2^32 (common case)
+- when we count up negative, there are also 2^32 negative numbers
+- so the range of int are -2^32 ~ 2^32 - 1; -1 to include 0.

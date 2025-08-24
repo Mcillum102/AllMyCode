@@ -1,68 +1,101 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "type": "java",
-      "name": "Date",
-      "request": "launch",
-      "mainClass": "Date",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Sat_ArrayList",
-      "request": "launch",
-      "mainClass": "Sat_ArrayList",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "CarA",
-      "request": "launch",
-      "mainClass": "CarA",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Car",
-      "request": "launch",
-      "mainClass": "Car",
-      "projectName": "AllMyCode_f85d7af8"
-    },
-    {
-      "type": "java",
-      "name": "Main",
-      "request": "launch",
-      "mainClass": "Main",
-      "projectName": "AllMyCode_889f7231"
-    },
-    {
-      "type": "java",
-      "name": "StepTracker",
-      "request": "launch",
-      "mainClass": "javajerry.AP2023.StepTracker",
-      "projectName": "AllMyCode_889f7231"
-    },
-    {
-      "name": "Run C++ File",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/Users/shuhancao/AllMyCode/Codes/OwenCPPClass/test2",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "externalConsole": false,
-      "MIMode": "lldb",
-      "preLaunchTask": "build with clang++"
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
-      "request": "launch",
-      "args": [],
-      "cwd": "/Users/shuhancao/AllMyCode",
-      "program": "/Users/shuhancao/AllMyCode/build/Debug/outDebug"
-    }
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Loops",
+            "request": "launch",
+            "mainClass": "Loops",
+            "projectName": "AllMyCode_f85d7af8"
+        },
+        {
+            "type": "java",
+            "name": "Date",
+            "request": "launch",
+            "mainClass": "Date",
+            "projectName": "AllMyCode_f85d7af8"
+        },
+        {
+            "type": "java",
+            "name": "Sat_ArrayList",
+            "request": "launch",
+            "mainClass": "Sat_ArrayList",
+            "projectName": "AllMyCode_f85d7af8"
+        },
+        {
+            "type": "java",
+            "name": "CarA",
+            "request": "launch",
+            "mainClass": "CarA",
+            "projectName": "AllMyCode_f85d7af8"
+        },
+        {
+            "type": "java",
+            "name": "Car",
+            "request": "launch",
+            "mainClass": "Car",
+            "projectName": "AllMyCode_f85d7af8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "AllMyCode_889f7231"
+        },
+        {
+            "type": "java",
+            "name": "StepTracker",
+            "request": "launch",
+            "mainClass": "javajerry.AP2023.StepTracker",
+            "projectName": "AllMyCode_889f7231"
+        },
+        {
+            "name": "Run C++ File",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/Users/shuhancao/AllMyCode/Codes/OwenCPPClass/test2",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "build with clang++"
+        },
+        {
+            "name": "C/C++ Runner: Debug Session",
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "/Users/shuhancao/AllMyCode",
+            "program": "/Users/shuhancao/AllMyCode/build/Debug/outDebug"
+        },
+        {
+            "name": "C/C++: g++ build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++ build active file",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
 }
