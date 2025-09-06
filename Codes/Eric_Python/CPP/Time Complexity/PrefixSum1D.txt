@@ -1,0 +1,14 @@
+Prefix Sum 1D:
+    - Ex:
+        - Finding summary in many lists from position a to b
+    - Instead of adding everything together, which will take
+      O(N*M) time. We can use prefix list to reduce the time.
+
+To create prefix list:
+    - we always set prefix[0] = 0 for easier reading
+    - Sigma symbol (flipped 3) means summary of a list
+    - k is the amount of terms involved in calculation
+
+Calculation:
+    - finding sum from list(a to b)
+    - prefix_list[b] - prefix_list[a-1]

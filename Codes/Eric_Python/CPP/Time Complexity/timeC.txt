@@ -1,0 +1,41 @@
+Time Complexity:
+    - search is the key
+        - e.g. we always search for a number in a tree
+    - it is used to value how quick a program runs
+    - the time it takes for a program to find a value
+    - O(), Big-O will represent this event
+        - inside the (), it tells "how long" the time was spent
+        - it's not how many seconds the program show the answer,
+          it's how complex the program is to get a answer
+
+For all n below, they represent amount of test we will run
+O(n^2):
+    - this time means we run the program with a squared time,
+    which basically means the program runs itself again inside
+    the program.
+    - this case usually involve with nested-loop
+    - O(nm)/O(n*m) for case that has different length of loop
+    
+O(n):       Linear
+    - the program will run n times and end directly
+    - this case usually involve with single loop
+    - each time, the amount of time will be changed based on how many
+      times we want to run the program
+
+O(log n):   
+    - logrithm in Math means finding the exponent in a power number
+    - e.g. 2^3 = 8
+           a^b = c
+        -> log^a c = b
+           log^2 8 = 3
+    - In our program, we will continue the program based on different
+    conditions
+    - this case usually will involve recursion
+    - this case also will occur when the change of iteration is not 1
+      (not equal to the same amount n)
+    - when you see pow() function or any sign of power calculation,
+      there should be a log added to Big-O
+
+O(1):       Constant
+    - each time you call a function, the amount of time to execute is
+      always the same.
