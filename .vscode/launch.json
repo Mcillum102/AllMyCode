@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClassReview",
+            "request": "launch",
+            "mainClass": "ClassReview",
+            "projectName": "AllMyCode_f85d7af8"
+        },
+        {
+            "type": "java",
             "name": "Loops",
             "request": "launch",
             "mainClass": "Loops",
