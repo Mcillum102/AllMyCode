@@ -28,7 +28,7 @@ void search() {
 int main() {
     n = 3;
     chosen.resize(n, false);
-    cout << "All permutations of {0, 1, 2， 3}:" << endl;
+    cout << "All permutations of {0, 1, 2}:" << endl;
     search();
     return 0;
 }
