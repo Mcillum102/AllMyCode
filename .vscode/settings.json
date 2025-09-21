@@ -61,7 +61,9 @@
   ],
   "java.debug.settings.onBuildFailureProceed": true,
   "files.associations": {
+    "*.rmd": "markdown",
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "vector": "cpp"
   }
 }
