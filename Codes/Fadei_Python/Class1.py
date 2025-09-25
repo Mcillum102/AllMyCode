@@ -18,7 +18,7 @@ print(num * 10)
 
 # 3 variables: name, age, favorite_food
 # put your info to these variables
-name = "Fadei"
-age = 11
-favorite_food = "Japanese_Food"
+name = input("Please enter your name ")
+age = int(input("Please enter how old are you "))
+favorite_food = input("Please enter your favorite food ")
 print("My name is", name,"\nI am", age, "\nMy favorite food is", favorite_food)

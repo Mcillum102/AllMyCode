@@ -16,7 +16,23 @@ vector<Event> selectMaxEvents(vector<Event> events) {
         return {};
     }
 
-    sort(events.begin(), events().end());
+    sort(events.begin(), events.end(), [](const Event& a, const Event& b) {
+        return a.end < b.end;
+    });
+
+    vector<Event> scheduled;
+
+    scheduled.push_back(events[0]);
+    int end_time = events[0].end;
+
+    for (int i = 1; i < events.size(); ++i) {   // we use ++i. It means we increment i after we check the condition. i value will be different at the end of loop comparing to i++
+        if (events[i].start >= end_time) {
+            Event e = events[i];
+            scheduled.push_back(e);
+            end_time = e.end;
+        }
+    }
+    return scheduled;
 }
 
 
@@ -29,5 +45,10 @@ int main() {
         {'D', 6, 8}
     };
 
+    vector<Event> result = selectMaxEvents(events);
+
+    for (const auto& e : result) {
+        cout << "Event " << e.name << " [Start: " << e.start << ", End: " << e.end << "]" << endl;
+    }
 
 }
