@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Class_Object.Main",
+            "projectName": "AllMyCode_889f7231"
+        },
+        {
+            "type": "java",
+            "name": "ClassReview",
+            "request": "launch",
+            "mainClass": "ClassReview",
+            "projectName": "AllMyCode_889f7231"
+        },
+        {
+            "type": "java",
             "name": "ClassReview",
             "request": "launch",
             "mainClass": "ClassReview",
