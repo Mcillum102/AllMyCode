@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Person",
+            "request": "launch",
+            "mainClass": "Class_Object.Person",
+            "projectName": "AllMyCode_889f7231"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Class_Object.Main",
