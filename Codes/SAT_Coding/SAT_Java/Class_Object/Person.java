@@ -1,4 +1,5 @@
 package Class_Object;
+import java.util.Scanner;
 
 public class Person {
 
@@ -33,9 +34,13 @@ public class Person {
         Person p1 = new Person("Eric", 14, 174.5);
         Person p2 = new Person("Jacky", 15, 174.5);
         System.out.println(p1.status);
-        p1.sleep();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What do you want me to do?");
+        String s = sc.nextLine();
+        if (s.toLowerCase().contains("go to bed")) p1.sleep();
         System.out.println(p1.status);
 
+        sc.close();
     }
 
 }
