@@ -5,7 +5,7 @@
 using namespace std;
 
 int N = 10;
-vector<int> coins = {1, 2, 5, 10, 20, 50, 100, 200};
+vector<int> coins = {1,3,4};
 const int INF = 1e9; // Define INF as a large constant value
 bool ready[520];
 int value[520];
@@ -16,7 +16,7 @@ int solve(int x)
     if (x == 0) return 0;
     if (ready[x])   return value[x];
     int best = INF;
-    for (auto c : coins)
+    for (int c : coins)
     {
         best = min(best, solve(x - c) + 1);
     }
