@@ -7,8 +7,9 @@ int main() {
     2. Add more conditions to make things considered symmetric
     3. Shorten the code
     */
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    // Optional
+    // ios::sync_with_stdio(false);
+    // cin.tie(nullptr);
 
     int T; cin >> T;    // T means the number of testcases
     while (T--) {       // This is a short hand while loop that will end when T == 0
